@@ -95,13 +95,28 @@
    
    .how_fylo_works_container{
     display: flex;
+    width: 100%;
+    height: 800px;
+    height: fit-content;
+    background-color: #F9F8FE;
     flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px #F9F8FE;
+    border: 10px #F9F8FE;
+    margin: 30px #F9F8FE;  
+
    }
    
    .how_fylo_works_text{
     background-color: #F9F8FE;
     display: flex;
     flex-direction: column;
+    width: 80%;
+    height: 300px;
+    margin: 0px;
+    padding: 10px;
+    border: 10px;
    }
 
    .box_illustration2{
@@ -118,7 +133,7 @@
     margin: 10px;
     padding: 10px;
     border: 10px;
-    filter: opacity(4);
+    filter: opacity(1);
    }
 
    .icon-arrow{
@@ -130,3 +145,79 @@
     display: flex;
     flex-direction: row;
    }
+
+   .kyle_container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content:flex-start;
+    padding: 20px;
+    margin: 0px;
+    border: 10px;
+    height: 180px;
+    width: 300px;
+    background-color:rgb(207, 149, 149);
+    
+   }
+   
+   .kyle_photo{
+     height: 40px;
+     width: 40px;
+     border-radius:20px 20px 20px 20px;
+   }
+
+  .kyle_textandphoto {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 80px;
+    margin: 0px;
+    padding: 4px;
+    border: 4px;
+  }
+
+  .get_access {
+    display:flex;
+    flex-direction: row;
+    column-gap: 25%;
+    align-items:center;
+    justify-content: center;
+    background-color: #575989;
+    color: white;
+  }
+
+  .getstartet_button_and_text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #07043B;
+    color: white;
+    height: 250px;
+  }
+
+  .info_footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .logof{
+    filter:invert(100%) brightness(100%);
+  }
+
+  .info_footer_nets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:space-around;
+  }
+
+  .facebooklogo{
+      height: 20px;
+      width: 20px;
+  }
+  
