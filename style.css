@@ -25,9 +25,14 @@
         flex-direction: row;
         align-items:center;
         justify-items: center;
-        align-content:space-around;
-        justify-content: space-around; 
+        align-content:space-between;
+        justify-content: space-between; 
+        column-gap: 20px;
         font-family: Inter; 
+        
+    }
+
+    .links_header_son{
         
     }
   
@@ -40,8 +45,13 @@
         border: 10px;
     }
     
+    .title1{
+        
+        
+    }
+
     .email {
-        width: 235px;
+        width: 300px;
         height: 35px;
         margin: 3px;
         border-radius:  3px;
@@ -202,10 +212,6 @@
     height: 230px;
   }
 
-  .email{
-    width: 400px;
-  }
-
   .getstartet_button_and_text{
     display: flex;
     flex-direction: column;
@@ -245,18 +251,22 @@
       height: 20px;
       width: 20px;
       border-radius:20px 20px 20px 20px;
+      margin: 5px;
   }
 
   .twitterlogo{
       height: 20px;
       width: 20px;
       border-radius:20px 20px 20px 20px;
+      margin: 5px;
   }
 
   .instagramlogo{
       height: 20px;
       width: 20px;
       border-radius:20px 20px 20px 20px;
+      margin: 5px;
+      
   }
   
   .info_footer_nets{
